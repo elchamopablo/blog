@@ -1,0 +1,31 @@
+{% extends "portfolio/es/es-main.html" %}
+{% load static %}
+
+{% block content %}
+<header>
+    <h1>{{ title }}</h1>
+</header>
+    <section>
+        <h2>Académico</h2>
+            <ul>
+                <li><a href="{% static 'portfolio/school-diploma.png' %}" target="_blank">Diploma de colegio</a></li>
+                <li><a href="{% static 'portfolio/college-diploma.jpg' %}" target="_blank">Título de universidad</a></li>
+                <li><a href="{% static 'portfolio/specialization-paper.jpg' %}" target="_blank">Énfasis</a></li>
+            </ul>
+        <h2>Programación</h2>
+            <ul>
+              <li><a href="https://www.freecodecamp.org/certification/elchamopablo/responsive-web-design" target="_blank">Responsive Web Design(Inglés)</a></li>
+              <li><a href="https://www.freecodecamp.org/certification/elchamopablo/javascript-algorithms-and-data-structures" target="_blank">JavaScript Algorithms and Data Structures(Inglés)</a></li>
+              <li><a href="https://www.udemy.com/certificate/UC-4d4458dc-77fe-4f94-abf5-212767c3b2a0/" target="_blank">The Complete 2023 Web Development Bootcamp(Inglés)</a></li>
+            </ul>
+        <h2>Taekwondo</h2>
+            <ul>
+                <li><a href="{% static 'portfolio/9th-geup.jpg' %}" target="_blank">9no Gûp</a></li>
+                <li><a href="{% static 'portfolio/7th-geup.jpg' %}" target="_blank">7mo Gûp</a></li>
+                <li><a href="{% static 'portfolio/5th-geup.jpg'%}" target="_blank">5to Gûp</a></li>
+                <li><a href="{% static 'portfolio/3rd-geup.jpg' %}" target="_blank">3er Gûp</a></li>
+                <li><a href="{% static 'portfolio/1st-geup.jpg' %}" target="_blank">1er Gûp</a></li>
+                <li><a href="{% static 'portfolio/1st-dan.jpg' %}" target="_blank">1er Dan</a></li>
+            </ul>
+    </section>
+{% endblock %}

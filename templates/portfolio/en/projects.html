@@ -1,0 +1,24 @@
+{% extends "portfolio/en/main.html" %}
+
+{% block content %}
+<header>
+    <h1>{{ title }}</h1>
+</header>
+<section>
+    <h2>Music</h2>
+        <ul>
+            <li><a href="{% url 'portfolio:sutta-indice' %}" target="_blank">Sutta Pitaka(Spanish)</a></li>
+            <li><a href="https://www.instagram.com/elchamopablo/" target="_blank">Other original compositions and covers are archived on my Instagram.</a></li>
+        </ul>
+    <h2>Programming</h2>
+        <ul>
+            <li>{% comment %}<a href="https://github.com/elchamopablo/EventCenter" target="_blank">{% endcomment %}EventCenter(in development){% comment %}</a>{% endcomment %}</li>
+            <li>{% comment %}<a href="https://github.com/elchamopablo/BuddhaSite" target="_blank">{% endcomment %}Buddha Site(in development){% comment %}</a>{% endcomment %}</li>
+        </ul>
+    <h2>Taekwondo</h2>
+        <ul>
+            <li><a href="{% url 'portfolio:1er-dan-indice' %}" target="_blank">1st Degree Project(Spanish)</a></li>
+            <li><a href="{% url 'portfolio:2do-dan-indice' %}" target="_blank">2nd Degree Project(Spanish)</a></li>
+        </ul>
+</section>
+{% endblock %}

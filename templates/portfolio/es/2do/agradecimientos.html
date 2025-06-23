@@ -1,0 +1,19 @@
+{% load static%}
+
+<!DOCTYPE html>
+
+<html>
+    {% include 'portfolio/es/2do/head-2do-dan.html'%}
+<body>
+    <a href="{% url 'portfolio:2do-dan-indice' %}"><img class="small-logo" src="{% static 'portfolio/ryong-tae-dojang.png' %}" alt="Logo de la academia"></a>
+	<main>
+    {% include 'portfolio/es/2do/navbar-2do-dan.html' %}
+		<h1>Agradecimientos</h1>
+		 <p>Cada persona que uno se encuentra en la vida deja una parte de ellos en uno, de una u otra manera; deja su granito de arena en uno. Hay personas que dejan más que un solo granito, tanto en mi vida como en la ejecución de este proyecto.</p>
+		 
+		 <p>Se le agradece al profesor Alexánder Martín y a la profesora Fabiola Meneses por sus enseñanzas a través de tantos años, por el incondicional apoyo, por dar un espacio en donde ejecutar, practicar, delimitar, definir, redefinir, lograr y enfocar los objetivos de este proyecto. Sin ellos este proyecto no sería posible.</p>
+		 
+		 <p>Unas gracias inmensas al profesor Ricardo Castañeda por su colaboración en las partes más cruciales de este proyecto, colaborando con la traducción de varios movimientos, verificar su correcta ejecución y las enseñanzas de tantos años en el área de la acrobacia, inspirando el comienzo y la ejecución continua del proyecto. Sin él no se me hubiera ocurrido en primer lugar hacer un proyecto sobre tricking.</p>
+	</main>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{% extends "portfolio/es/es-main.html" %}
+
+{% block content %}
+<form >
+    <table>
+        <tr>
+        <label for="name">Nombre:</label>
+        <input id="name" type="text" />
+        </tr>
+        <br />
+        <tr>
+        <label for="email">Email:</label>
+        <input id="email" type="text" />
+        </tr>
+        <br />
+        <tr>
+        <label for="subject">Asunto:</label>
+        <input id="subject" type="text" />
+        </tr>
+        <br />
+    </table>
+    <label for="message">Mensaje:</label>
+    <br />
+    <textarea id="message" rows="9" cols="50" ></textarea>
+    <br />
+    <button id="submit-button" type="submit">Send</button>
+</form>
+{% endblock %}

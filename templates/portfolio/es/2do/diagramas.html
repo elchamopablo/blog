@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="es-co">
+    {% include 'portfolio/es/2do/head-2do-dan.html'%}
+<body>
+    <a href="{% url 'portfolio:2do-dan-indice' %}"><img class="small-logo" src="{% static 'portfolio/ryong-tae-dojang.png' %}" alt="Logo de la academia"></a>
+	<main>
+    {% include 'portfolio/es/2do/navbar-2do-dan.html' %}
+	
+	<h1>Diagramas</h1>
+	
+    <img src="{% static 'portfolio/diagrama-1.png' %}" alt=""/>
+	<br>
+	<hr>
+	
+    <img src="{% static 'portfolio/diagrama-2.png' %}" alt=""/>
+	<br>
+	<hr>
+    <img src="{% static 'portfolio/diagrama-3.png' %}" alt=""/>
+	<br>
+	<hr>
+    <img src="{% static 'portfolio/diagrama-4.png' %}" alt=""/>
+	<br>
+	<hr>
+    <img src="{% static 'portfolio/diagrama-5.png' %}" alt=""/>
+	<br>
+	
+	<hr>
+    <img src="{% static 'portfolio/diagrama-6.png' %}" alt=""/>
+	<br>
+	
+	<!--<hr>
+	<img src="Diagrama-7.png" alt=""/>
+	<br>-->
+	
+	<!--<hr>
+	<img src="Diagrama-8.png" alt=""/>
+	<br>-->
+	
+	<hr>
+    <img src="{% static 'portfolio/diagrama-9.png' %}" alt=""/>
+	<br>
+	
+	<hr>
+	</main>
+</body>
+
+</html>

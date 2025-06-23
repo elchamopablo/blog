@@ -1,0 +1,129 @@
+body {
+	background-color: black !important;
+	font-family: tahoma;
+	font-size: 12px;
+}
+
+h1, h2, p, pre, li, ol, ul {
+	color: white;
+	width: 100%;
+}
+
+hr {
+  border: 1px solid white !important
+}
+
+.list-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:100%;
+}
+
+sup > a {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 0 5px;
+  color:  rgba(115, 115, 245, 0.815) !important
+}
+
+.audio-container{
+  margin: 50px 0 20px 0;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.list-element {
+	display: inline;
+	border-style: solid;
+  padding: 5px
+}
+
+p#parent span:hover {
+  background: yellow !important;
+  cursor: pointer !important;
+}
+
+.audio-container > audio {
+  max-width: 500px;
+}
+.audio-container.gestures > audio {
+  width: 1200px;
+  max-width: 980px;
+}
+
+@media screen and (max-width: 480px) {
+  .audio-container.gestures > audio {
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .audio-container.gestures > audio {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .audio-container.gestures > audio {
+    max-width: 800px;
+  }
+}
+
+
+audio::-webkit-media-controls-panel {
+  background-color: #56AEFF;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #B1D4E0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(177,212,224, .7);
+}
+
+.list-element:hover{
+	background-color: white;
+  border-color: white;
+}
+.list-element:hover > a{
+	color: black !important
+}
+
+blockquote > p {
+  color: white;
+  font-size: 16px;
+  max-width: 500px;
+  margin-left: 50px;
+  font-style: italic;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+a {
+	text-decoration: none;
+	color: #add7ff !important;
+    font-size: 16px;
+	font-weight: 800;
+}
+
+.ant-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.quote-container{
+	margin-left: 20px;
+}

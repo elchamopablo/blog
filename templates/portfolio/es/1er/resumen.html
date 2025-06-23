@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE HTML>
+
+<html lang="es-co">
+	<head>
+		<title>Resumen</title>
+    <meta name="description" content="Proyecto de grado hecho por el autor para obtener su 1er Dan de Taekwondo en la academia Ryong Tae Dojang."/>
+	  <meta name="author" content="Pablo Roufogalis"/>
+		<meta name="keywords" content="taekwondo tkd musica neurologia music neurology"/>
+        <link rel="stylesheet" href="{% static 'portfolio/tkd-style.css' %}"/>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body>
+        <a href="{% url 'portfolio:1er-dan-indice' %}"><img class="small-logo" src="{% static 'portfolio/ryong-tae-dojang.png' %}" alt="Logo de la academia"></a>
+    <main>
+      <h1>Resumen</h1>
+        <p>En la música hay unos procesos por los cuales uno puede pasar una melodía existente y transformarla. Las tranformaciones son: invertirla(cuando la melodía original sube en altura, la invertida baja), retrogradarla(hacerla al revés) y ambos procesos a la vez, la retrograda invertida. Se pueden aplicar procesos similares a cualquier pumse; invertir un pumse resulta en hacer cualquier movimiento que se hace con la izquierda hacerlo con la derecha, retrogradarla es hacer la figura al revés y también se puede hacer al revés la forma invertida. En paralelo, pasé medio año haciendo la mayoría de las actividades de mi vida con la otra mano y le escribí a un experto en neurología, el Dr. Carlos Acosta Serrano, por si había beneficios neurológicos al hacer actividades con el otro lado del cuerpo. Sí los hay. Abajo parte del mensaje del Dr. Carlos:</p>
+
+        <blockquote>
+          "...Se entrena el “encéfalo” (que es más que el cerebro, apenas una parte del encéfalo) para que ambos lados del cuerpo desarrollen destrezas por encima de la media...cuando entrenas habilidades para las cuales no tienes buen desempeño en un determinado lado del cuerpo, estas indirectamente estimulando diferentes sistemas sensoriales y de procesamiento de ideas (a través de áreas de áreas asociación mental<i>(sic)</i>) que van a producir una mejora paralela en otras funciones diversas, no solamente direccionadas al aspecto puramente motor..."
+        </blockquote>
+    </main>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="es-co">
+    {% include 'portfolio/es/2do/head-2do-dan.html'%}
+<body>
+    <a href="{% url 'portfolio:2do-dan-indice' %}"><img class="small-logo" src="{% static 'portfolio/ryong-tae-dojang.png' %}" alt="Logo de la academia"></a>
+	<main>
+    {% include 'portfolio/es/2do/navbar-2do-dan.html' %}
+			<h1>Introducción</h1>
+				<p>El freestyle TKD es una rama deportiva del taekwondo donde se organiza una coreografía de combate acompañada de música, con una duración de máximo 90 segundos hasta la fecha con un conjunto de movimientos y posturas obligatorias en una secuencia específica. Se acumulan diferentes herramientas en el área de la acrobacia para tener un repertorio armado de posibilidades para usar en el freestyle, enfocándose en seguridad y una progresión en el aprendizaje de estos movimientos, apoyados de material visual contenido en una página web.</p>
+			<h1>Justificación</h1>
+				<p>El camino del tricking está lleno de percances, dudas, más que todo problemas de progresión y por otra parte de metodología; Progresión por no saber cómo se avanza de un truco a otro, cuáles son los requisitos de algún truco; Metodología porque las fuentes en internet para buscar estos movimientos son de calidad de variable, sea en su explicación o en la calidad del video no ayuda al entendimiento. Este trabajo pretende resolver estos 2 problemas de progresión y perspectiva.</p>
+			<h1>Objetivos</h1>
+			<h2>General</h2>
+				<p>Acumular diferentes herramientas en el área de la acrobacia para tener un repertorio armado de posibilidades para usar en el freestyle, enfocándose en seguridad y una progresión en el aprendizaje de estos movimientos, apoyados de material audiovisual contenido en una página web.</p>
+			<h2>Específicos</h2>
+				<ul>
+					<li>Armar un diagrama de árbol enseñando la progresión de los diferentes trucos de tricking.</li>
+					<li>Armar una tabla mostrando por nivel de dificultad, dado por el número de movimientos requeridos antes de su ejecución, los diferentes trucos de acrobacia.</li>
+					<li>Grabar tutoriales del primer nivel del diagrama.</li>
+				</ul>
+			<h1>Marco Teórico</h1>
+				<h2>Taekwondo</h2>
+					<p>Taekwondo es un arte marcial coreano concebido en 1955, con influencias de previas artes marciales como el Karate, Tang Soo Do y Soo Bak Do. En la actualidad tiene una rama marcial y deportiva, estando incluida en los Juegos Olímpicos desde 1989, específicamente en el área de combate olímpico; Otras categorías de competencia incluye figuras, rompimiento, taekwondance y freestyle.</p>
+				<h2>Poomsae</h2>
+					<p>Descrito en oportunidades como la simulación de un combate real, el poomsae en el área deportiva es una categoría de competencia de la World Taekwondo(WT) donde se juzga la ejecución de unos movimientos de combate en una secuencia específica; algunas de sus modalidades son poomsae individual, en pareja, en grupo y freestyle, también con sus respectivas variaciones de individual, pareja o grupal.</p>
+				<h2>Freestyle</h2>
+					<p>Freestyle Taekwondo es una modalidad de competencia dentro del Taekwondo donde una persona o un equipo de 2 a 5 personas ejecutan una coreografía no de baile al ritmo de alguna pieza musical de una duración máxima de 100 segundos hasta la fecha. Esta modalidad adicionalmente tiene unas posturas y movimientos obligatorios en su ejecución.<sup><a href="#source1">1</a></sup></p>
+				<h2>Tricking</h2>
+					<p>Tricking es una disciplina originando en la decada los 60 por maestros de taekwondo<sup><a href="#source2">2</a></sup> que combina patadas junto con movimientos de acrobacia y elementos del breakdancing<sup><a href="#source3">3</a></sup>, con un enfoque en las combinaciones, movimientos consecutivos sin interrupción entre los mismos.<sup><a href="#source4">4</a></sup>La disciplina se volvió mucho más popular posterior a la creación del internet, en la segunda mitad de los 90 o entradas de los 2000.<sup><a href="#source5">5</a></sup></p>
+			<h1>Antecedentes</h1>
+				<h2>Aaron Gassor</h2>
+					<p>Aaron Gassor, conocido como Ginger Ninja Trickster en Youtube, o solo GNT, es un artista marcial irlandés con un recorrido de más de 15 años y doble de riesgo. 3er Dan en Taekwondo ITF y 1er Dan en Taekwondo WT, Gassor ha dado seminarios en varias partes del mundo y ha tomado parte como doble en películas como Mujer Maravilla de 2017 y en series como The Witcher de 2019.<sup><a href="#source6">6</a></sup></p>
+				<h2>JJ Battell</h2>
+					<p>JJ Battell es un atleta profesional y doble de riesgo irlandés miembro del gremio de dobles irlandeses, dueño de la marca 4EVER Flying, con un recorrido en artes marciales desde sus 6 años y de tricking desde los 13. Battell vive en Birmingham, Inglaterra, donde subía video-tutoriales de movimientos de tricking en conjunto con un vlog personal. El canal ha estado inactivo desde 2021.<sup><a href="#source7">7</a></sup></p>
+
+<hr />
+
+	<ol>
+		<li id="source1">British Taekwondo Poomsae Referee Department-British Taekwondo Freestyle Poomsae Rules</li>
+		<li id="source2"><a href="https://wonderopolis.org/index.php/wonder/what-is-tricking">Wonderopolis-What Is Tricking?</a></li>
+		<li id="source3"><a href="https://www.loopkickstricking.com/blog/what-is-tricking-a-comprehensive-beginners-guide-to-tricking">Loopkicks-What is Tricking? A Comprehensive Beginner's Guide to Tricking [2021]</a></li>
+		<li id="source4">Ibid.</li>
+		<li id="source5"><a href="https://www.topendsports.com/sport/list/tricking.htm">Topend Sports-Tricking</a></li>
+		<li id="source6"><a href="https://www.imdb.com/name/nm5757435/?ref_=nmbio_bio_nm">IMDB-Aaron Gassor</a></li>
+		<li id="source7"><a href="http://stuntguildireland.ie/wp-content/uploads/2019/04/JJ.pdf">Stunt Guild Ireland</a></li>
+	</ol>
+	</main>
+</body>
+
+</html>

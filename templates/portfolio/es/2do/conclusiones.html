@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+    {%include 'portfolio/es/2do/head-2do-dan.html'%}
+
+<body>
+    <a href="{% url 'portfolio:2do-dan-indice' %}"><img class="small-logo" src="{% static 'portfolio/ryong-tae-dojang.png' %}" alt="Logo de la academia"></a>
+	<main>
+    {% include 'portfolio/es/2do/navbar-2do-dan.html' %}
+		<h1>Conclusiones</h1>
+		 <p>Para ser el tricking una parte más pequeña dentro de todo lo demás que se hace en Freestyle, sigue siendo algo que requiere bastante esfuerzo en el practicante y una actividad de un riesgo alto a más se avanza. Las características necesarias para lograr condensar en un video los movimientos requiere más que solamente saber el movimiento y grabarlo, como por ejemplo describir cada paso necesario en la ejecución del truco y una edición que haga entender mejor cómo ejecutarlo.</p>
+		 
+		 <p>Los diagramas expuestos junto con la tabla proponen unos caminos para avanzar en el área de tricking, sumando movimientos por usar y ampliando el repertorio disponible en la ejecución de una rutina de freestyle, en conjunto con proveer nombres para cada movimiento y mejorando la comunicación y la organización de dichos movimientos a la hora de crear una rutina de freestyle, como ordenar las notas en una partitura.</p>
+	</main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="es-co">
+    {% include "portfolio/es/sutta/sutta-head.html" %}
+
+    <body>
+        <img src="{% static 'portfolio/buddha.jpg' %}" alt="Estatua del Buda" class="center">
+        <h1 style="text-align:center">{{ title }}</h1>
+        {% include "portfolio/es/sutta/sutta-navbar.html" %}
+	</body>
+</html>
