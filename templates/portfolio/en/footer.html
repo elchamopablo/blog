@@ -1,3 +1,10 @@
 <footer>
-    <p>&copy; Pablo A. Roufogalis 2025.</p>
+  <p>&copy; Pablo A. Roufogalis <span id="year"></span>.</p>
 </footer>
+
+<script>
+  let year = document.getElementById("year");
+  let current = new Date().getFullYear();
+
+  year.innerHTML = current;
+</script>
