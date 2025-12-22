@@ -9,7 +9,6 @@ main {
 
 nav {
 	
-	
 }
 nav ul {
 	list-style-type: none;
@@ -60,16 +59,16 @@ td, th {
 	border-style:solid;
 }
 
-.list-element:hover{
+.list-element:hover {
 	background-color: white;
 }
 
 
-a{
+a {
 	color:rgb(230,29,37)
 }
 
-a:hover{
+a:hover {
 	color:rgb(32,53,122)
 }
 
@@ -77,16 +76,18 @@ a:visited {
 	color:rgb(230,29,37)
 }
 
-a:active{
+a:active {
 	color:rgb(248,238,6)
 }
 
-
-
-.small-logo{
+.small-logo {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	/*float: right;*/
 	width: 10%;
+}
+
+@media (max-width: 768px) {
+
 }

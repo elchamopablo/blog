@@ -2,13 +2,13 @@
 
 <nav>
     <ul>
-        <li><a href="{% url 'portfolio:home' %}">Home</a></li>
-        <li><a href="{% url 'portfolio:about-me' %}">About Me</a></li>
-        <li><a href="{% url 'portfolio:projects' %}">Projects</a></li>
-        <li><a href="{% url 'portfolio:certificates' %}">Certificates</a></li>
+        <li><a href="{% url 'blog:home' %}">Home</a></li>
+        <li><a href="{% url 'blog:about-me' %}">About Me</a></li>
+        <li><a href="{% url 'blog:projects' %}">Projects</a></li>
+        <li><a href="{% url 'blog:certificates' %}">Certificates</a></li>
         {% comment %}
-        <li><a href="{% url 'portfolio:contact-me' %}">Contact Me</a></li>
+        <li><a href="{% url 'blog:contact-me' %}">Contact Me</a></li>
         {% endcomment %}
     </ul>
-    <img src={% static "portfolio/profile.jpeg" %} alt="A picture of Pablo A. Roufogalis" title="Photo by: Juan Daniel Guerrero" width="20%" height="20%"/>
+    <img src={% static "blog/profile.jpeg" %} alt="A picture of Pablo A. Roufogalis" title="Photo by: Juan Daniel Guerrero" width="20%" height="20%"/>
 </nav>

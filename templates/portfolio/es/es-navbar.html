@@ -2,13 +2,13 @@
 
 <nav>
     <ul>
-        <li><a href="{% url 'portfolio:es-home' %}">Inicio</a></li>
-        <li><a href="{% url 'portfolio:sobre-mi' %}">Sobre Mí</a></li>
-        <li><a href="{% url 'portfolio:proyectos' %}">Proyectos</a></li>
-        <li><a href="{% url 'portfolio:certificados' %}">Certificados</a></li>
+        <li><a href="{% url 'blog:es-home' %}">Inicio</a></li>
+        <li><a href="{% url 'blog:sobre-mi' %}">Sobre Mí</a></li>
+        <li><a href="{% url 'blog:proyectos' %}">Proyectos</a></li>
+        <li><a href="{% url 'blog:certificados' %}">Certificados</a></li>
         {% comment %}
-        <li><a href="{% url 'portfolio:contactame' %}">Contact Me</a></li>
+        <li><a href="{% url 'blog:contactame' %}">Contact Me</a></li>
         {% endcomment %}
     </ul>
-    <img src={% static "portfolio/profile.jpeg" %} alt="Una foto de Pablo A. Roufogalis" title="Foto por Juan Daniel Guerrero" width="20%" height="20%"/>
+    <img src={% static "blog/profile.jpeg" %} alt="Una foto de Pablo A. Roufogalis" title="Foto por Juan Daniel Guerrero" width="20%" height="20%"/>
 </nav>

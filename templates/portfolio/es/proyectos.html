@@ -1,4 +1,4 @@
-{% extends "portfolio/es/es-main.html" %}
+{% extends "blog/es/es-main.html" %}
 
 {% block content %}
 <header>
@@ -7,7 +7,7 @@
 <section>
     <h2>Música</h2>
         <ul>
-            <li><a href="{% url 'portfolio:sutta-indice' %}" target="_blank">Sutta Pitaka</a></li>
+            <li><a href="{% url 'blog:sutta-indice' %}" target="_blank">Sutta Pitaka</a></li>
             <li><a href="https://www.instagram.com/elchamopablo/" target="_blank">Otras composiciones originales y covers archivadas en Instagram.</a></li>
         </ul>
     <h2>Programming</h2>
@@ -17,8 +17,8 @@
         </ul>
     <h2>Taekwondo</h2>
         <ul>
-            <li><a href="{% url 'portfolio:1er-dan-indice' %}" target="_blank">Proyecto de 1er Dan</a></li>
-            <li><a href="{% url 'portfolio:2do-dan-indice' %}" target="_blank">Proyecto de 2do Dan</a></li>
+            <li><a href="{% url 'blog:1er-dan-indice' %}" target="_blank">Proyecto de 1er Dan</a></li>
+            <li><a href="{% url 'blog:2do-dan-indice' %}" target="_blank">Proyecto de 2do Dan</a></li>
         </ul>
 </section>
 {% endblock %}

@@ -1,17 +1,17 @@
 {% load static %}
 
 <html lang="es">
-    {% include "portfolio/es/es-head.html" %}
+    {% include "blog/es/es-head.html" %}
 
     <body>
         <section id="wrapper">
-            {% include "portfolio/es/es-navbar.html" %}
-            {% include "portfolio/es/es-aside.html" %}
+            {% include "blog/es/es-navbar.html" %}
+            {% include "blog/es/es-aside.html" %}
             <main>
                 {% block content %}
                 {% endblock %}
             </main>
-            {% include "portfolio/en/footer.html" %}
+            {% include "blog/en/footer.html" %}
         </section>
     </body>
 </html>
