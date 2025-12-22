@@ -1,7 +1,7 @@
 from django.urls import path, reverse_lazy
 from . import views
 
-app_name = "portfolio"
+app_name = "blog"
 
 urlpatterns = [
     path("", views.home, name = "home"),
